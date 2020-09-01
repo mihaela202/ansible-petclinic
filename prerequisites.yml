@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Install prerequisites
+    package:
+      name:
+      - vim
+      - git
+      - wget
+      - unzip
+      state: present

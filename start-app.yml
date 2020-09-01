@@ -1,0 +1,6 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Start Petclinic
+    shell: "./mvnw package"
