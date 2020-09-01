@@ -2,7 +2,7 @@
 - hosts: all
 
   tasks:
-  - name: Pull Flaskex
+  - name: Pull Petclinic
     git:
       repo: "{{ petclinic_repo }}"
       version: "{{ petclinic_branch }}"
