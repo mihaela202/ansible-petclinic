@@ -8,5 +8,4 @@
       - vim
       - git
       - wget
-      - unzip
       state: present
